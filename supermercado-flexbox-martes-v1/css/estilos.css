@@ -85,7 +85,8 @@ h1,h2,h3,h4,h5,h6{
 /* descuentos */
 .descuento,
 .productos,
-.servicios{
+.servicios,
+.nosotros{
     width: 100%;
     height: auto;
     display: flex;
@@ -99,7 +100,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .titulo-des h2,
 .titulo-pro h2,
-.titulo-ser h2{
+.titulo-ser h2,
+.titulo-nos h2{
     font-size: 50px;
     color: red;
 }
@@ -151,7 +153,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*  Servicios */
-.con-servicios{
+.con-servicios,
+.con-nosotros{
     width: 100%;
     height: auto;
 }
@@ -173,7 +176,8 @@ h1,h2,h3,h4,h5,h6{
     margin-left: 50px;
 }
 .servicio-1 .con-texto h3,
-.servicio-2 .con-texto h3{
+.servicio-2 .con-texto h3,
+.con-nosotros .con-texto h2{
     font-size: 35px;
     color: red;
     font-weight: bold;
@@ -181,7 +185,15 @@ h1,h2,h3,h4,h5,h6{
 .servicio-1 .con-texto p,
 .servicio-1 .con-texto ul,
 .servicio-2 .con-texto p,
-.servicio-2 .con-texto ul{
+.servicio-2 .con-texto ul,
+.con-nosotros .con-texto p{
     font-size: 20px;
     color: rgb(69, 69, 69);
+}
+/* nosotros */
+.con-nosotros{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
 }
